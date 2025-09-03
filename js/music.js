@@ -14,7 +14,7 @@ let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
 let id = "14796622"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
-    url: "https://api.injahow.cn/meting/?type=url&id=1849650220",
+    url: "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1742043818435/%E6%A2%A6%E8%BF%94.mp3",
     type: "GET",
     dataType: "JSON",
     success: function (data) {
@@ -150,6 +150,7 @@ $.ajax({
         }, 3800);
     }
 })
+
 
 
 
